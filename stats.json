@@ -1,0 +1,25 @@
+
+> webpack-learning@1.0.0 build
+> webpack --config webpack/webpack.prod.js
+
+Building for environment: undefined
+assets by status 179 KiB [1m[32m[cached][39m[22m 3 assets
+assets by path [1m[32m.[39m[22m 1.03 KiB
+  asset [1m[32mmain.c1065b402b54523c257c.js[39m[22m 534 bytes [1m[32m[emitted][39m[22m [1m[32m[immutable][39m[22m [1m[32m[minimized][39m[22m (name: main)
+  asset [1m[32mindex.html[39m[22m 524 bytes [1m[32m[emitted][39m[22m [1m[33m[compared for emit][39m[22m
+Entrypoint [1mmain[39m[22m 180 KiB = [1m[32mruntime.b27a2278ab6fe9b2b396.js[39m[22m 916 bytes [1m[32mvendors.9a6e818d204d57b6cc83.js[39m[22m 178 KiB [1m[32mmain.072525e054d36d106e35.css[39m[22m 82 bytes [1m[32mmain.c1065b402b54523c257c.js[39m[22m 534 bytes
+orphan modules 3.34 KiB (javascript) 937 bytes (runtime) [1m[33m[orphan][39m[22m 9 modules
+runtime modules 2.48 KiB 3 modules
+cacheable modules 541 KiB (javascript) 200 bytes (css/mini-extract)
+  modules by path [1m./node_modules/[39m[22m 540 KiB
+    modules by path [1m./node_modules/react/[39m[22m 18 KiB 4 modules
+    modules by path [1m./node_modules/react-dom/[39m[22m 512 KiB
+      modules by path [1m./node_modules/react-dom/*.js[39m[22m 2.67 KiB 2 modules
+      modules by path [1m./node_modules/react-dom/cjs/*.js[39m[22m 509 KiB 2 modules
+    modules by path [1m./node_modules/scheduler/[39m[22m 10.1 KiB
+      [1m./node_modules/scheduler/index.js[39m[22m 194 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+      [1m./node_modules/scheduler/cjs/scheduler.production.js[39m[22m 9.94 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+  modules by path [1m./src/[39m[22m 691 bytes (javascript) 200 bytes (css/mini-extract)
+    [1m./src/index.tsx + 1 modules[39m[22m 691 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    css ./node_modules/css-loader/dist/cjs.js![1m./src/index.css[39m[22m 200 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+webpack 5.99.9 compiled [1m[32msuccessfully[39m[22m in 7046 ms
